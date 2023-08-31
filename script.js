@@ -1,3 +1,4 @@
+// script.js (JavaScript)
 $(document).ready(function() {
     $('#generate-button').click(function() {
         $.ajax({

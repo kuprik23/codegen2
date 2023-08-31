@@ -1,3 +1,4 @@
+# generator.py (Python Flask code)
 from flask import Flask, render_template, jsonify
 import random
 import string
