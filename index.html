@@ -1,0 +1,21 @@
+<!-- templates/index.html (HTML) -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Code Generator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="centered-content">
+        <h1>AI Code Generator</h1>
+        <div id="code-display">
+            <span id="char1">A</span>
+            <span id="char2">B</span>
+            <span id="code-span">Generating...</span>
+        </div>
+        <button id="generate-button">Generate Code</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
