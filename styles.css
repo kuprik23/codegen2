@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+#code-display {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0077cc;
+    margin-top: 20px;
+}
+
+#generate-button {
+    margin-top: 20px;
+}
+
+/* Add CSS styles for character spans as needed */
+#char1 {
+    animation: move-up-and-down 2s linear infinite alternate;
+}
+
+#char2 {
+    animation: move-up-and-down 2s linear infinite alternate-reverse;
+}
+
+/* Add more styles for additional character spans */
+@keyframes move-up-and-down {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
